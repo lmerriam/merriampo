@@ -64,10 +64,60 @@ table{
 }
 
 
-
+/* UNGRID */
+@media (min-width: 30em) {
+    .row { width: 100%; display: table; table-layout: fixed; }
+    .col { display: table-cell; }
+}
 
 
 /*------------------------------------*\
     $MAIN
 \*------------------------------------*/
-/* GO! */
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #666;
+}
+strong {
+    font-weight: bold;
+}
+.wrapper {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+h1 {
+    font-size: 3.5em;
+    line-height: 1.2em;
+    font-weight: bold;
+}
+h2 {
+    font-size: 2.5em;
+}
+h3 {
+    font-size: 2em;
+    font-weight: bold;
+}
+h4 {
+    font-size: 2em;
+}
+.row {
+    padding: 5% 0;
+}
+.top {
+    background: #A369D7;
+}
+.title {
+    color: #7C41AF;
+}
+.synopsis {
+    color: white;
+}
+.location {
+    background: #efefef;
+}
+.address {
+    vertical-align: top;
+}
+
