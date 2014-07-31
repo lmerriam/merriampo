@@ -75,47 +75,69 @@ table{
     $MAIN
 \*------------------------------------*/
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     color: #666;
 }
 strong {
-    font-weight: bold;
+    font-weight: 600;
 }
 .wrapper {
     width: 100%;
-    max-width: 900px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 0 30px;
 }
 h1 {
     font-size: 3.5em;
     line-height: 1.2em;
-    font-weight: bold;
+    font-weight: 800;
 }
 h2 {
     font-size: 2.5em;
+    font-weight: 400;
 }
 h3 {
-    font-size: 2em;
-    font-weight: bold;
+    font-size: 1.5em;
+    font-weight: 600;
+    line-height: 1.5em;
 }
 h4 {
-    font-size: 2em;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.5em;
 }
-.row {
-    padding: 5% 0;
+@media (max-width: 850px) {
+    h1 {
+        font-size: 2.5em;
+    }
+    h2 {
+        font-size: 1.5em;
+    }
+    h3 {
+        font-size: 1.2em;
+    }
+    h4 {
+        font-size: 1.2em;  
+    }
 }
 .top {
     background: #A369D7;
+    padding: 4% 0;
 }
 .title {
     color: #7C41AF;
+    padding: 2% 0;
 }
 .synopsis {
     color: white;
+    padding: 5% 0 2% 0;
+}
+.contact {
+    padding: 7% 0;
 }
 .location {
     background: #efefef;
+    padding: 7% 0;
 }
 .address {
     vertical-align: top;
